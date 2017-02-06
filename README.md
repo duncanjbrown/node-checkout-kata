@@ -7,6 +7,7 @@
 ## Workflow
 - Treat this like a real piece of work, but only spend an hour or two on it - it doesn't matter how far you get
 - It must work in Node.js v6
+- Use your finest functional programming
 - Feel free to use any npm modules and/or npm tasks
 - Commit your work frequently
 
