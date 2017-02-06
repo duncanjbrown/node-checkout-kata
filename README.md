@@ -12,7 +12,8 @@
 
 ## Instructions
 You should implement a supermarket checkout which:
-- always accepts a string of items and returns the total price
+- has an asynchronous interface
+- always accepts a string of items and gives back the total price
 - discounts any offers from the total price
 
 Use the following pricing information:
@@ -24,4 +25,4 @@ Use the following pricing information:
 | C     | 20    | N/A       |
 | D     | 15    | N/A       |
 
-For example, passing in `'DABA'` returns `145`.
+For example, passing in `'DABA'` gives `145`.
