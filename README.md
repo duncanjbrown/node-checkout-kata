@@ -6,14 +6,15 @@
 
 ## Workflow
 - Treat this like a real piece of work, but only spend an hour or two on it - it doesn't matter how far you get
-- It must work in Node.js v6
+- Commit your work frequently
 - Use your finest functional programming
 - Feel free to use any npm modules and/or npm tasks
-- Commit your work frequently
+- It must work in Node.js v6
+- Add your own `README` if necessary
 
 ## Instructions
 You should implement a supermarket checkout which:
-- has an asynchronous interface
+- has an asynchronous interface (even if the implementation is synchronous)
 - always accepts a string of items and gives back the total price
 - discounts any offers from the total price
 
