@@ -27,4 +27,6 @@ Use the following pricing information:
 | C     | 20    | N/A       |
 | D     | 15    | N/A       |
 
-For example, passing in `'DABA'` gives `145`.
+For example:
+- `'DABA'` gives `145`
+- `'BBBB'` gives `90`
