@@ -4,8 +4,8 @@
 // Implement the code for a supermarket checkout that calculates the total price
 // of a number of items.
 //
-// Goods are priced individually, but there are weekly special offers for when 
-// multiple items are bought. 
+// Goods are priced individually, but there are weekly special offers for when
+// multiple items are bought.
 //
 // For example "Apples are 50 each or 3 for 130"
 //
@@ -15,18 +15,10 @@
 // C      20      N/A
 // D      15      N/A
 
-// ES5 constructor syntax
-// function Checkout() {}
-// Checkout.prototype.scan = function() { }
-// Checkout.prototype.total = function() { return 0 }
+class Checkout {
+  total() {}
 
-// ES6 Class syntax
-// class Checkout {
-//   total() {
-//     return 0
-//   }
-//
-//   scan() {}
-// }
+  scan() {}
+}
 
-module.exports = Checkout
+module.exports = Checkout;
