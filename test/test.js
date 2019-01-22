@@ -5,14 +5,14 @@
 // D      15      N/A
 
 const expect = require('expect.js');
-const Checkout = require('./checkout.js');
+const Checkout = require('../checkout.js');
 
 describe('Checkout', () => {
   context('when it receives one A', () => {
     it('returns a total price of 50', () => {
-      checkout = new Checkout()
-      checkout.scan('A')
-      expect(checkout.total()).to.be(50)
-    })
-  })
-})
+      const checkout = new Checkout();
+      checkout.scan('A');
+      expect(checkout.total()).to.be(50);
+    });
+  });
+});
